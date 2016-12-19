@@ -104,7 +104,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)addToken:(CLToken *)token;
 - (void)removeToken:(CLToken *)token;
 - (nullable CLToken *)tokenizeTextfieldText;
-
+- (void)setTextFieldInputAccesoryView:(UIView *) view;
+    
 // Editing
 - (void)beginEditing;
 - (void)endEditing;

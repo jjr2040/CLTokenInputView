@@ -422,6 +422,11 @@ static CGFloat const FIELD_MARGIN_X = 4.0; // Note: Same as CLTokenView.PADDING_
 -(void) setText:(NSString*)text {
     self.textField.text = text;
 }
+    
+
+- (void) setTextFieldInputAccesoryView:(UIView *)view {
+    self.textField.inputAccessoryView = view;
+}
 
 #pragma mark - CLTokenViewDelegate
 
